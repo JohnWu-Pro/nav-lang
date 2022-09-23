@@ -9,6 +9,13 @@
 
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
+  <script>
+    const HREF_BASE = hrefBase(location)
+
+    function hrefBase(location) {
+      return location.href.substring(0, location.href.lastIndexOf('/'))
+    }
+  </script>
   <script src="pwa-bootstrap.js?20220922" data-cacheable type="text/javascript" async></script>
 
   <meta name="theme-color" media="(prefers-color-scheme: light)" content="white">
