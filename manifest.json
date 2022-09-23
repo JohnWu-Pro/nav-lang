@@ -1,0 +1,35 @@
+{
+  "name": "Defect Triage",
+  "short_name": "Triage",
+  "description": "window.navigator.language defect triage web application",
+  "categories": ["triage"],
+  "id": "/nav-lang/index.html",
+  "start_url": "/nav-lang/index.html?mode=standalone",
+  "scope": "/nav-lang/",
+  "related_applications": [{
+    "platform": "webapp",
+    "url": "https://johnwu-pro.github.io/nav-lang/manifest.json"
+  }],
+  "display": "standalone",
+  "background_color": "#f8f8ff",
+  "theme_color": "#f8fff8",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "images/sudoku-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable"
+    },{
+      "src": "images/sudoku-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },{
+      "src": "images/sudoku-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

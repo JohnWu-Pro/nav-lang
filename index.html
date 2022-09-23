@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Triage</title>
+  <meta name="author" content="John Wu">
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+  <script src="pwa-bootstrap.js?20220922" data-cacheable type="text/javascript" async></script>
+
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="white">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="black">
+  <link rel="manifest" href="manifest.json?20220922">
+</head>
+
+<body>
+  <script>
+    document.body.appendChild(document.createElement('div')).innerHTML = `
+      <div>window.navigator.language: ${window.navigator.language}</div>
+    `
+  </script>
+</body>
+
+</html>
